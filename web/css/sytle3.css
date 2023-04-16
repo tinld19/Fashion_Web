@@ -1,0 +1,198 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*---------------------header --------------------*/
+#header {
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  padding: 30px 80px; 
+  background-color: #fff; 
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06); 
+  padding-left: 2rem; /* 32px */
+  padding-right: 2rem; 
+  margin-bottom: 15px;
+  margin-bottom: -7px;
+} 
+
+.logo{
+  font-weight: 600;
+  text-align: center;
+  font-size: x-large;
+  margin-left: 7%;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 2rem;
+}
+
+.navbar li{
+  list-style: none;
+  padding: 0 20px;
+} 
+
+.navbar li a{
+  text-decoration: none;
+  font-size: 12pt; 
+  line-height: 1.25rem;
+  font-weight: 500;
+  color: #6B7280;
+  text-transform: uppercase;
+
+} 
+
+/* -------------------------Reset Page------------------------- */
+
+.reset-page{
+  background: radial-gradient(#fff); 
+  padding: 110px 0;
+  margin-top: -20px;
+}
+
+.reset-page img{
+  height: 600px;
+  margin-left: -20%;
+}
+
+.form-container{
+  background: #fff;
+  width: 300px;
+  height: 400px;
+  position: relative;
+  text-align: center;
+  padding: 20px 0;
+  margin-left: 60%;
+  margin-top: 65px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.form-container span{
+  font-weight: bold;
+  padding: 0 10px;
+  color: #555;
+  cursor: pointer;
+  width: 53%;
+  margin: 0 8px;
+  font-size: 10pt;
+}
+
+.form-btn{
+  display: inline-block; 
+}
+
+.form-container form{
+  max-width: 300px;
+  padding: 0 20px;
+  position: absolute;
+  top: 130px;
+  transition: transform 1s;
+}
+
+form input{
+  width: 100%;
+  height: 40px;
+  margin: 10px 0;
+  padding: 0 10px; 
+  border: 1px solid #ccc;
+}
+
+form .btn{
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  margin: 10px 0;
+  background: black;
+  color: #fff;
+}
+
+form .btn:focus{
+  outline: none;
+}
+
+#sendEmail{
+  left: -300px;
+}
+
+#changePass{
+  left: 0;
+}
+
+#Indicate{
+    width: 42%;
+    border: none;
+    background: black;
+    height: 3px;
+    margin-top: 8px;
+    transform: translateX(150px);
+    transition: transform 1s;
+}
+
+/* -------------Product Page------------------ */
+#prodetails{
+  display: flex;
+  float: left;
+  margin-top: 20px;
+}
+.single-image{
+  width: 45%;
+  margin-left: 6%; 
+}
+
+#main-image{
+  margin-left: 2%;
+  
+}
+
+.single-details{
+  width: 50%;
+  padding-top: 70px;
+  margin: 0 15% 0 15%;
+  font-family: Calibri;
+}
+
+.single-details h4{
+  padding: 40px 0 20px 0;
+  font-size: 35pt;
+  font-family: Georgia;
+}
+
+.single-details h2{
+  font-size: 30px;
+  color: #FF0000;
+}
+
+.single-details span{
+  font-size: 18pt;
+}
+
+.single-details input{
+  width: 50px;
+  height: 47px;
+  padding-left: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.single-details input:focus{
+  outline: none;
+}
+
+.single-details button{
+  background: black;
+  color: #fff;
+  padding: 13px 25px;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+.single-details span{
+  line-height: 25px;
+
+}
